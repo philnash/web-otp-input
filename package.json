@@ -1,0 +1,11 @@
+{
+  "name": "@philnash/web-otp-input",
+  "version": "0.0.0",
+  "description": "A web component to make using the WebOTP API declarative",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {},
+  "author": "Phil Nash <philnash@gmail.com> (https://philna.sh)",
+  "license": "MIT"
+}

@@ -6,6 +6,17 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {},
+  "files": [
+    "./index.js"
+  ],
   "author": "Phil Nash <philnash@gmail.com> (https://philna.sh)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philnash/web-otp-input.git"
+  },
+  "homepage": "https://github.com/philnash/web-otp-input",
+  "bugs": {
+    "url": "https://github.com/philnash/web-otp-input/issues"
+  },
   "license": "MIT"
 }

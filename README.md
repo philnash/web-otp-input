@@ -31,7 +31,31 @@ Then you need a space, a `#` symbol and then the one time code.
 
 Once you have the message set up correctly, you can add the web component to the page.
 
-### TODO: Installation and import instructions
+### Installation and import instructions
+
+If you are using npm, you can install the component to your application with:
+
+```
+npm i @philnash/web-otp-input
+```
+
+Then import the component with:
+
+```js
+import { WebOTPInput } from "@philnash/web-otp-input";
+```
+
+That will register the `<web-otp-input>` element for the page.
+
+Alternatively, you can include the script on the page as an ES module, for example with unpkg:
+
+```html
+<script type="module" src="https://unpkg.com/@philnash/web-otp-input"></script>
+```
+
+Once that is loaded, it will register the web component.
+
+### Using the web component
 
 You should have a form on the page with an input element that is ready for the code. Wrap the `<web-otp-input>` element around your input element and that is all you need to do.
 
@@ -46,6 +70,8 @@ You should have a form on the page with an input element that is ready for the c
   <button type="submit">Submit</button>
 </form>
 ```
+
+When the user comes to this page, if their browser supports it and an OTP code arrives, they will be prompted to read the code from the message and if they approve, the code will be autofilled in the input and the form will be submitted. Slick two factor authentication with one extra web component.
 
 ## License
 
